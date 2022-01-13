@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background: #03011f;
+    width: 1347px;
+    height: 680vh;
+}
+nav{
+    background: rgb(128, 4, 4);
+    text-align: center;
+    transform: translateY(30px);
+    border-radius: 500px;
+    
+}
+nav ul{
+    display: inline-flex;
+    list-style: none;
+}
+nav ul li{
+    width: 120px;
+   margin-top: 10px;
+    padding: 15px;
+    
+    
+}
+nav ul li a{
+    color: white;
+   
+}
+.title{
+    color: white;
+    margin-top: 20px;
+    padding-right: 785px;
+}
+.img{
+    margin-top: 14px;
+    padding-right: 8px;
+}
+
+.main2{
+    margin-top: 45px;
+    padding-left: 180px;
+    color: #03011f;
+    
+}
+.btn{
+    width: 190px;
+    height: 40px;
+    background: #ff7200;
+    margin-top: 15px;
+    color: #fff; font-size: 15px;
+    border-radius: 10px;
+    
+}
+.btn:focus{
+    outline:none;
+}
+
+
+
+/*---submenu1----*/
+.submenu1{
+    display: none;
+}
+.row ul li:hover .submenu1{
+    display: block;
+    position: absolute;
+    background: rgb(128, 4, 4);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.row ul li:hover .submenu1 ul{
+    display: block;
+    margin: 10px;
+    
+}
+.row ul li:hover .submenu1 ul li{
+border-bottom: 1px dotted white;
+}
+.row ul li:hover .submenu1 ul li:last-child{
+    border-bottom:none;
+}
+.row ul li:hover .submenu1 ul li a:hover{
+    color: black;
+}
+
+/*--------cards-------*/
+
+.d1{
+    margin-top: 11px;
+}
+.d1-part{
+    margin-left: 10px;
+    color: #03011f;
+}
+.d2{
+    transform: translateY(-42px);
+    padding-left: 205px;
+}
+.d2-part{
+    padding-left: 215px;
+    color: #03011f;
+    transform: translateY(-42px);
+}
+.d3{
+    padding-left: 420px; 
+    transform: translateY(-82px);
+}
+.d3-part{
+    padding-left: 430px;
+    transform: translateY(-82px);
+    color: #03011f;
+}
+.d4{
+    transform: translateY(-50px);
+}
+
+.d4-part{
+    transform: translateY(-40px);
+}
+.role1{
+    transform: translateY(-25px);
+}
+button{
+    display: inline-block;
+    background: #ff7200;
+    color: cornsilk;
+    padding: 10px 30px;
+    margin: -50px 0;
+    border-radius: 30px;
+    transition: background 0.4s;
+    transform: translateY(-20px);
+    text-decoration: none;
+    font-size: 14px;
+    
+    
+}
+button:hover{
+    background: black;
+}
+button a{
+    text-decoration: none;
+    color: white
+}
+.skills{
+    transform: translateY(-30px);
+}
+.skills ul{
+    display: inline-flex;
+   
+}
+.skills ul li{
+    width: 155px;
+    padding-bottom: 20px;
+    
+}
+
+.box{
+    position: relative;
+    width: 1000px;
+    background: cyan;
+    box-shadow: 40px 40px 80px black;
+    border-radius: 15px;
+    padding-left: 7px;
+}
+h1{
+    text-align: center;
+}
+h2{
+    padding-left: 10px;
+}
